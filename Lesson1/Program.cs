@@ -1,5 +1,24 @@
-﻿int number = int.Parse(Console.ReadLine());
+﻿
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine());
 
-int result = number * number;
-
-Console.WriteLine(result);
+if (number == 1)
+{
+    Console.WriteLine("Понедельник");
+}
+else if (number == 2)
+{
+    Console.WriteLine("Вторник");
+}
+else if (number == 3)
+{
+    Console.WriteLine("Среда");
+}
+else if (number == 4)
+{
+    Console.WriteLine("Четверг");
+}
+else if (number == 5)
+{
+    Console.WriteLine("Пятница");
+}
